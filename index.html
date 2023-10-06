@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <!-- Title displayed on the browser tab -->
+    <!-- Browser tab's title bar -->
 <head>
     <!-- Defining what unicode type to use for display, character set UTF-8 can represent any character in the Unicode stanndard characters -->
     <meta charset="utf-8"/>
     <!-- Makes sure the webpage is responsive to the device's screen width -->
     <meta name="viewport" content="width=device-width, initialscale=1.0" />
+    <!--Add author and description-->
+    <meta name="author" content="Yixuan Sherly Lin"/>
+    <meta name="description" content="This is a sample webpage page introducin HTML" />
     <!--link: to link document; rel: relationship; href: URL to the document-->
     <link rel="stylesheet" href="style.css">
+    <!--Add JavaScript; 'defer' tells the browser to load the JavaScript after the page has finished parsing the HTML-->
+    <script src="index.js" defer></script>
     <title>HTML Sample</title>
 </head>
     <!-- Where things start to render -->
@@ -21,29 +26,40 @@
             <h2>Link</h2>
             <h2>Image</h2>
         </nav>
-
-        <h1>&#11093 h1</h1>
-        <h2>&#11093 h2 </h2>
-        <h3>&#11093 h3</h3>
-        <h4>&#11093 h4</h4>
-        <h5>&#11093 h5</h5>
-        <h6>&#11093 h6</h6>
-        <p>Hi there</p>
+        <div class="h_">
+            <h1>&#11093 h1 element<code>&lth1&gt</code></h1>
+            <h2>&#11093 h2 element<code>&lth2&gt</code></h2>
+            <h3>&#11093 h3 element<code>&lth3&gt</code></h3>
+            <h4>&#11093 h4 element<code>&lth4&gt</code></h4>
+            <h5>&#11093 h5 element<code>&lth5&gt</code></h5>
+            <h6>&#11093 h6 element<code>&lth6&gt</code></h6>
+        </div>
+        
 
         <div class="box">
-            <h2>This is a div</h2>
+            <h2>This is a div <code>&ltdiv&gt</code></h2>
+            
             <div class="box">
                 <h2>This is a div inside another div</h2>
-                <h3 class="text-box">Inside a text box</h3>
+                <h3 class="text-box">This is not a div but <code>&lth3&gt</code> with a solid border and customer background color</h3>
             </div>
             
         </div>
-
-        <div class="box">
-            <p>HI</p>
+        <div class="box-col">
+            <div class="box">
+                <p>This is the start of a paragraph <code>&ltp&gt</code>.
+                    <br>
+                    You can start another line with <code>&ltbr&gt</code>.</p>
+            </div>
+            <div class="box">
+                <p>This is the start of a paragraph <code>&ltp&gt</code>.
+                    <br>
+                    You can start another line with <code>&ltbr&gt</code>.</p>
+            </div>
         </div>
+        
 
-        <h2>Lists</h2>
+        <h2 style="padding: 10px 0 0 10px;">Lists</h2>
         <div class="list">
             <h4>This is an unordered list:</h4>
             <ul>
@@ -58,7 +74,7 @@
                 <li>Item 3</li>
             </ol>
         </div>
-        
+        <h2 style="padding: 10px 0 0 10px;">This is a div as well:</h2>
         <div class="picture">
             <a href="https://github.com/sherly-ylin">My Github Page</a>
             <br><br>
