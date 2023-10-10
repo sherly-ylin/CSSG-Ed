@@ -12,8 +12,8 @@
     <!--link: to link document; rel: relationship; href: URL to the document-->
     <link rel="stylesheet" href="style.css">
     <!--Add JavaScript; 'defer' tells the browser to load the JavaScript after the page has finished parsing the HTML-->
-    <script src="index.js" defer></script>
     <title>HTML Sample</title>
+    <script src="index.js" defer></script>
 </head>
     <!-- Where things start to render -->
     <body>
@@ -45,12 +45,20 @@
             </div>
             
         </div>
-        <div class="box-col">
-            <div class="box">
-                <p>This is the start of a paragraph <code>&ltp&gt</code>.
-                    <br>
-                    You can start another line with <code>&ltbr&gt</code>.</p>
+        <div class="flexbox-row">
+            <div class="flexbox-col">
+                <div class="box">
+                    <p>This is the start of a paragraph <code>&ltp&gt</code>.
+                        <br>
+                        You can start another line with <code>&ltbr&gt</code>.</p>
+                </div>
+                <div class="box">
+                    <p>This is the start of a paragraph <code>&ltp&gt</code>.
+                        <br>
+                        You can start another line with <code>&ltbr&gt</code>.</p>
+                </div>
             </div>
+            
             <div class="box">
                 <p>This is the start of a paragraph <code>&ltp&gt</code>.
                     <br>
@@ -76,11 +84,12 @@
         </div>
         <h2 style="padding: 10px 0 0 10px;">This is a div as well:</h2>
         <div class="picture">
+            <!-- Link -->
             <a href="https://github.com/sherly-ylin">My Github Page</a>
             <br><br>
             <img src="The Moon.jpg" alt="The Moon">
         </div>
-        <!-- Link -->
+        <button id="myButton">Press</button>
         
     </body>
 </html>

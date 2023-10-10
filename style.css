@@ -23,6 +23,7 @@ nav{
     margin: 30px 30px;
     padding: 10px;
     display: flex;
+    flex-direction: row;
     background-color: rgb(225, 235, 227);
     border-radius: 10px;
     text-align: center;
@@ -65,18 +66,30 @@ nav h2:hover{
     height: fit-content;
 }
 
-.box-col{
+.flexbox-row{
     border: 5px dotted rgb(222, 85, 21);
     border-radius: 3px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flexbox-col{
+    border: 5px dotted rgb(112, 21, 222);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
 .list {
     border: 2px solid black;
     padding: 0 15px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 1em; */
 }
+
 .list *{
     border: 1px solid gray ;
     
@@ -87,6 +100,7 @@ nav h2:hover{
     padding: 20px 0;
     text-align: center;
 }
+
 p{
     border: 1px dashed slategray;
     padding: 2px;
