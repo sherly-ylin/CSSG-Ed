@@ -129,14 +129,31 @@ img{
     /* border: 4px dashed slateblue; */
 }
 
+
 .alert{
     margin: 10px 0;
     padding: 0 10px;
     display: flex;
     border: 2px solid crimson;
 }
-.alert button{
-    margin: 10px;
+
+button{
+    margin: 5px;
     padding: 5px;
     align-self: center;
+}
+
+.counterBox{
+    margin: 10px 0;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid brown;
+}
+
+.counter{
+    margin: 0 0 20px 0;
+    padding-bottom: 5px;
+    align-self: center;
+    border: 1px dotted black;
 }
