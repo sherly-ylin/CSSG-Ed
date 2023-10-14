@@ -4,6 +4,6 @@ function onClick(){
     alert("alert!");
 }
 
-async funtion getPosts{
-    const posts = await db.find(posts.user === "sherly");
-}
+// async funtion getPosts{
+//     const posts = await db.find(posts.user === "sherly");
+// }

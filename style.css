@@ -128,3 +128,15 @@ img{
     max-width: 60%;
     /* border: 4px dashed slateblue; */
 }
+
+.alert{
+    margin: 10px 0;
+    padding: 0 10px;
+    display: flex;
+    border: 2px solid crimson;
+}
+.alert button{
+    margin: 10px;
+    padding: 5px;
+    align-self: center;
+}
