@@ -1,3 +1,6 @@
+import SearchResult from functions.js
+
+
 var count = 0;
 
 const alertBtn = document.getElementById("alertBtn");
